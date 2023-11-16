@@ -95,6 +95,16 @@
         }
     }
 }
+.article-and-news-section {
+    padding-top: 50px;
+    .article-and-news-div {
+        padding-bottom: 25px;
+        .section-title {
+            margin-bottom: 15px;
+        }
+    }
+    
+}
 
 
 // Homepage
@@ -117,8 +127,20 @@
         }
     }
 }
+.brands-section {
+    padding: 20px 10px;
+    .container {
+        img {
+            height: auto;
+            width: 50%;
+            @media (min-width: 400px) {
+                width:20%;
+            }
+        }
+    }
+}
 .features-section {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 .about-section {

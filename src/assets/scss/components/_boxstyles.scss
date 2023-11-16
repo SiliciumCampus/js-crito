@@ -301,3 +301,97 @@
         }
     }
 }
+.article-box {
+    padding-top: 10px;
+    
+    background-color: #ffffff;
+    display:grid;
+    justify-content: center;
+    .img-border {
+        background-color: #ffffff;
+        display:grid;
+        justify-content: center;
+        height: 230px;
+        width: 450px;
+        padding: 0 15px;
+        .img-div {
+            background-color: #ffffff;
+            position: relative;
+            display:grid;
+            justify-content: center;
+            height: 230px;
+            width: 420px;
+            overflow: hidden;
+           
+            .article-img {
+                position: absolute;
+                left:0;
+                right:0;
+                bottom:-30px;
+                height: auto;
+                width: 100%;
+                @media (max-width:450px) {
+
+                }
+            }
+            
+            .date {
+                top:6%;
+                left:3.5%;
+                right:80%;
+                position: absolute;
+                background-color: #f9d783;
+                padding-top: 15px;
+                padding-bottom: 10px;
+                .day {
+                    color: #191919;
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 1;
+                    padding: 0;
+                    margin: 0;
+                }
+                .month {
+                    color: #191919;
+                    font-size: 16px;
+                    font-family: 'inter', sans-serif;
+                    font-weight: 400;
+                    line-height: 1;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .text-div {
+        background-color: #ffffff;
+        height: 230px;
+       
+        .text-box {
+            width: 450px;
+            padding: 0 15px;
+            background-color: #ffffff;
+          
+            .category {
+                text-align: start;
+                background-color: #ffffff;
+                color: #5d5d5d;
+                margin: 20px 0 0 0;
+
+            }
+            .title {
+                text-align: start;
+              
+                margin: 5px 0;
+            }
+            .content-text {
+                text-align: start;
+                margin: 0;
+                color: #5d5d5d;
+        
+            }
+        }
+    }
+    
+}
