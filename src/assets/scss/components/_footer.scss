@@ -1,0 +1,28 @@
+footer {
+    background-color: #0e1021;
+    position: relative;
+    z-index: 0;
+    .logo-box {
+        padding:50px 5% 10px 5%;
+        text-align: center;
+        img {
+            height: auto;
+            width: 150px;
+        }
+        p{
+            padding-top: 20px;
+            color:#cccce2;
+        }    
+    }
+    .copy {
+        border-top: 1px solid #cccce2;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        p {
+            color: #cccce2;
+            text-align: center;
+            margin: 0;
+        }
+        
+    }
+}

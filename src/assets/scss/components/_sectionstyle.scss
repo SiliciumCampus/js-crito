@@ -1,0 +1,280 @@
+// General sections
+.banner {
+    background-color:  #f0efe9;
+    position: relative;
+    z-index: 0;
+    height: 200px;
+
+    a {
+        padding: 5px;
+        text-decoration: none;
+        color: #191919;
+        font-size: 15px;
+        font-weight: 300;
+        &:hover {
+            color:red;
+        }
+    }
+    .active {
+        font-weight: 500;
+        color:#191919;
+        &:hover {
+            color: #191919;
+        }
+    }
+    h1 {
+
+        z-index: 1;
+    }
+    .showcase-white-graphic {
+        height: auto;
+        width: 80%;
+        position: absolute;
+        left:0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+.news-update {
+    position: relative;
+    padding: 70px 10px;
+    background-color: #F0EFE9;
+    z-index: 0;
+    .update-header-div {
+        display: grid;
+        justify-content: center;
+        h2 {
+            text-align: center;
+            width: 250px;
+        }
+    }
+    .subscribe-box {
+        align-items: center;
+        input {
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            border: 1px solid #1919190a;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        .btn-theme {
+            display: inline;
+            margin: 0 20px;
+        }
+
+    }
+    img {
+        position:absolute;
+        bottom: 10px;
+        right: 0;
+        z-index: -1;
+        height: auto;
+        width: 20%;
+       
+    }
+    @media (min-width:400px) {
+        .update-header-div {
+            h2 {
+                width: 400px;
+            }
+        }
+        img {
+            width: 100px;
+        }
+    }
+    @media (min-width: 992px) {
+        display: flex;
+        .subscribe-box {
+            display: flex;
+            input {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+// Homepage
+.showcase-section {
+    background-color:  #f0efe9;
+    padding-bottom: 50px;
+    .ShowcaseImg {
+        height: auto;
+        width: 90%;
+    }
+    .showcase-div {
+        h1 {
+            line-height: 1;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        p {
+           
+            margin: 0 30px 30px 30px ;
+        }
+    }
+}
+.features-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-section {
+    padding-bottom: 50px;
+}
+.services-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F0EFE9;
+    .card-section {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 7px;
+    }
+}
+.why-us-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    img {
+        height: auto;
+        width: 90%;
+    }
+}
+.projects-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .projects-div {
+        padding: 20px 10px;
+    }
+}
+.meet-team-section {
+    background-color: #EDCF86;
+    padding: 50px 15px;
+    .section-title {
+        padding-bottom: 20px;
+    }
+    .team-div {
+        padding-top: 35px;
+        padding-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .design-dots {
+        text-align: center;
+        i {
+            padding: 5px;
+            font-size: 10px;
+        }
+    }
+}
+.testimonial-section {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .testimonial-div {
+        margin-bottom: 35px;
+    }
+}
+
+
+
+// Contactpage
+.contact-form-section {
+    background-color: #ffffff;
+    .container {
+        background-color: #F0EFE9;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 40px 70px 40px;
+        form {
+            h2 {
+                text-align: center;
+            }
+                    
+            
+            .form-input {
+                
+                label {
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                input {
+                    display:block;
+                    width:100%;
+    
+                    margin-bottom: 15px;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 10px;
+                    text-indent: 10px;
+                    &:focus {
+                        outline: 1px solid #9b9b9b;
+                    
+                    }
+                }
+                textarea {
+                    resize: none;
+                    height: 150px;
+                    text-indent: 10px;
+                    display:block;
+                    width:100%;
+                    
+                    margin-bottom: 35px;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 10px;
+                    &:focus {
+                        outline: 1px solid #9b9b9b;
+                    }
+                }
+            }
+            .form-terms{
+                margin-bottom: 20px;
+                margin-left:10px;
+                p {
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    
+                }
+                .terms-box {
+                    display:flex;
+                    align-items: start;
+                    label {
+                        margin-left: 10px;
+                        font-size: 14px;
+                        line-height: 1.1;
+                    }
+                }
+            }
+
+            .form-button {
+                
+                button {
+                    width: 100%;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                p {
+                    text-align: center;
+                    margin-top: 10px;
+                }
+            }
+            
+        }
+    }
+}
+.map-section {
+    .map-section-styling {
+        height: 5px;
+        background-color: #ffffff;
+    }
+    img {
+        height: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+.footer-social-media {
+    text-align: center;
+    padding-bottom: 25px;
+    a {
+        font-size: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+        color: #ffffff;
+        &:hover {
+            color: #ff6a41;
+        }
+    }
+}
